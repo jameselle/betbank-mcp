@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.jameselle/betbank-mcp",
+  "title": "BetBank",
+  "description": "Australian sports betting analytics: odds compared, +EV picks, price moves, your bets.",
+  "websiteUrl": "https://betbank.ai/",
+  "repository": {
+    "url": "https://github.com/jameselle/betbank-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://betbank.ai/api/mcp"
+    }
+  ]
+}
